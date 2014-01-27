@@ -1,33 +1,10 @@
-Brunch with Jade, Stylus & CoffeeScript
+[stylus-brunch issue #39](https://github.com/brunch/stylus-brunch/issues/29)
 ===========================
 
-Super minimal brunch skeleton that includes jade and stylus plugins.
+Repo only for showcasing [stylus-brunch issue #39](https://github.com/brunch/stylus-brunch/issues/29)
 
-Forked from [brunch-jade-stylus](https://github.com/TessaHarmon/brunch-jade-stylus) with CoffeeScript added.
+See `app/styl/main.styl` for malfunctioning Stylus code.
 
-## Languages
+---
 
-- [CoffeeScript](http://coffeescript.org/)
-- [Stylus](http://learnboost.github.com/stylus/)
-- [Jade](http://jade-lang.com/)
-
-## Features
-
- -
- 
-## Plugins
-
-- [Brunch Auto-Reload](https://github.com/brunch/auto-reload-brunch)
-
-
-## Getting started
-
-```bash
-mkdir <projectName>
-cd <projectName>
-brunch new gh:KATT/brunch-jade-stylus-coffee
-npm install
-brunch w -s
-```
-
-
+*Brunch project using [brunch-jade-stylus-coffee](https://github.com/KATT/brunch-jade-stylus-coffee) skeleton.*
