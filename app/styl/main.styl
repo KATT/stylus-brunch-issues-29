@@ -1,0 +1,28 @@
+// Useful mixins for CSS3 effects.
+@import 'nib'
+
+// Make browsers render HTML elements consistently.
+@import 'normalize'
+
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  margin: 0 auto;
+  border: 10px solid purple;
+}
+
+.loader1, .loader2 {
+  height: 100px;
+  width: 100px;
+}
+
+.loader1 {
+  // Should figure out path through brunch settings and include as data URI
+  background-image: url('ajax-loader.gif');
+}
+.loader2 {
+  // "works", but
+  // - I have to give full relative path
+  // - is not inline URI
+  background-image: url('../images/ajax-loader.gif');
+
+}
