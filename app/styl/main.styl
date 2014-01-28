@@ -10,16 +10,19 @@ body {
   border: 10px solid purple;
 }
 
-.loader1, .loader2 {
-  height: 100px;
-  width: 100px;
-}
 
 .loader1 {
+  height: 100px;
+  width: 100px;
+
   // figures out path through brunch settings and include as data URI
   background-image: url('ajax-loader.gif');
 }
-.loader2 {
-  background-image: url('../images/ajax-loader.gif');
+.cat {
+  width: image-size('cat.jpg')[0];
+  height: image-size('cat.jpg')[1];
 
+  // SHOULD figure out path of `cat.jpg` and fix the `url()`
+  // note: this is not inline as the image is > [30K](http://learnboost.github.io/stylus/docs/functions.url.html)
+  background-image: url('cat.jpg');
 }
