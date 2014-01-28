@@ -1,11 +1,15 @@
+stylus = require './node_modules/stylus-brunch/node_modules/stylus'
+
 exports.config =
   # See http://brunch.readthedocs.org/en/latest/config.html for documentation.
   plugins:
     static_jade:
       extension: ".static.jade"
     stylus:
+      defines:
+        url: stylus.url()
       paths: [
-        './app/assets/images',
+        './app/assets/images'
       ]
   files:
     javascripts:
